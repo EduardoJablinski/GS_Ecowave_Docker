@@ -1,0 +1,16 @@
+com\ecowave\ecowave\repository\UsuarioRepository.class
+com\ecowave\ecowave\model\Amigos.class
+com\ecowave\ecowave\model\Usuario.class
+com\ecowave\ecowave\repository\ItensRecicladosRepository.class
+com\ecowave\ecowave\config\SecurityConfig.class
+com\ecowave\ecowave\controller\EcowaveController.class
+com\ecowave\ecowave\model\Localizacao.class
+com\ecowave\ecowave\EcowaveApplication.class
+com\ecowave\ecowave\service\ItensRecicladosService.class
+com\ecowave\ecowave\service\AmigosService.class
+com\ecowave\ecowave\repository\LocalizacaoRepository.class
+com\ecowave\ecowave\service\UsuarioService.class
+com\ecowave\ecowave\model\Amigos$AmigosId.class
+com\ecowave\ecowave\service\LocalizacaoService.class
+com\ecowave\ecowave\repository\AmigosRepository.class
+com\ecowave\ecowave\model\ItensReciclados.class

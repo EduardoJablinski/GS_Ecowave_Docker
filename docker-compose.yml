@@ -1,0 +1,24 @@
+version: '3.8'
+
+services:
+  ecowave:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ecowave_data:/app/data
+    environment:
+      - ENV_VAR=value
+    ports:
+      - "8080:8080"
+    restart: always
+    deploy:
+      resources:
+        limits:
+          cpus: "0.5"
+          memory: "512M"
+    user: appuser
+    command: ["java", "-jar", "/app/ecowave.jar"]
+
+volumes:
+  ecowave_data:
